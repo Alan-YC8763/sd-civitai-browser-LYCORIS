@@ -117,11 +117,11 @@ def make_new_folder(content_type, use_new_folder, model_name, lora_old):
             new_folder = "models/Lora/new"
     elif content_type == "LoCon":
         if lora_old:
-            folder = "extensions/sd-webui-additional-networks/models/lora"
-            new_folder = "extensions/sd-webui-additional-networks/models/lora/new"
+            folder = "extensions/sd-webui-additional-networks/models/LYCORIS"
+            new_folder = "extensions/sd-webui-additional-networks/models/LYCORIS/new"
         else:
-            folder = "models/Lora"
-            new_folder = "models/Lora/new"
+            folder = "models/LYCORIS"
+            new_folder = "models/LYCORIS/new"
     if content_type == "TextualInversion" or content_type == "VAE" or \
             content_type == "AestheticGradient":
         if use_new_folder:
